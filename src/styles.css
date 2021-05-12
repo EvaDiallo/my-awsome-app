@@ -1,0 +1,121 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  width: 100%;
+}
+.weather_app {
+  background-image: linear-gradient(pink, violet);
+  border: 1px solid black;
+  padding: 25px;
+  margin: 20px;
+  max-width: 600px;
+  border-radius: 20px;
+}
+form {
+  display: block;
+  margin: 50px auto;
+}
+input {
+  text-align: center;
+}
+#success {
+  background-color: rgb(217, 191, 241);
+  border: 1px solid rgb(217, 191, 241);
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+#success:hover {
+  background-color: white;
+  border: 1px solid rgb(217, 191, 241);
+  color: rgb(217, 191, 241);
+}
+
+#primary {
+  background-color: rgb(217, 191, 241);
+  border: 1px solid rgb(217, 191, 241);
+  margin-left: 10px;
+}
+
+#temp_city {
+}
+ul {
+  list-style: none;
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+a {
+  text-decoration-color: blue;
+  color: blue;
+  font-size: 10px;
+  position: relative;
+  top: -30px;
+}
+
+.city-day {
+  position: fixed;
+  position: relative;
+  top: 10px;
+  left: -100px;
+  font-size: 15px;
+}
+.temp_cel_far {
+  color: black;
+  font-size: 10px;
+  position: relative;
+  top: -30px;
+}
+
+.barre {
+  color: black;
+  font-size: 10px;
+  position: relative;
+  top: -30px;
+}
+.city {
+  position: relative;
+  top: 10px;
+  right: 100px;
+  font-size: 50px;
+}
+
+.temp {
+  position: relative;
+  top: 10px;
+  right: 100px;
+  font-size: 50px;
+}
+
+.emoji-1 {
+  position: relative;
+  top: 10px;
+  right: 120px;
+  font-size: 100px;
+}
+
+#col {
+  margin-bottom: 10px;
+}
+
+#card {
+  text-align: center;
+  max-width: 600px;
+}
+.card-body {
+  height: 200px;
+  padding-bottom: 20px;
+}
+.emoji-2 {
+  font-size: 50px;
+}
+
+.link-card {
+  position: relative;
+  top: -50px;
+  left: 30px;
+}
